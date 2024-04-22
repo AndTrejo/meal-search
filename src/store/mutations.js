@@ -11,6 +11,6 @@ export function setMealsByLetter(state, meals) {
 
 
 
-export function setMealsByIngredients(state, meals) {
+export function setMealsByIngredient(state, meals) {
     state.mealsByIngredient = meals || []
 }
